@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.ipynb_checkpoints/
+
+# MNIST データ（dataset/mnist.py が自動ダウンロード・生成する）
+dataset/*.gz
+dataset/mnist.pkl
+
+# エディタ / OS
+.vscode/*
+!.vscode/launch.json
+Thumbs.db
+.DS_Store
